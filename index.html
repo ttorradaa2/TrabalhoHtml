@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <title>Sujeito Programador - Meu portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  
+  <!-- INICIO HEADER -->
+  <nav class="nav">
+    <ul class="nav-list">
+      <li>
+        <a href="#home">Home</a>
+      </li>
+      <li>
+        <a href="#sobre">Sobre</a>
+      </li>
+      <li>
+        <a href="#projetos">Projetos</a>
+      </li>
+      <li>
+        <a href="#contato">Contato</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- FIM HEADER -->
+
+  <!-- INICIO MAIN -->
+  <section id="home" class="main">
+    <div>
+      <h1>Olá,<br>Seja bem vindo</h1>
+      <p>Crie soluções para seu negócio!</p>
+      <a href="#projetos">
+        <button class="call-to-action">
+          Veja meus projetos 👇
+        </button>
+      </a>
+    </div>
+  </section>
+  <!-- FIM MAIN -->
+
+  <!-- INICIO SOBRE -->
+  <section id="sobre" class="about">
+    <div>
+      <h2>Sobre</h2>
+      <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure corrupti vel quod enim cupiditate quam inventore. Sequi esse alias facere ipsum consequatur accusantium asperiores, labore est soluta. 
+        <br><br>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad distinctio earum architecto corrupti aliquid, eius impedit obcaecati, nulla maiores laboriosam reiciendis in voluptate tenetur mollitia accusantium optio unde, quia numquam.</p>
+    </div>
+    <img src="foto-pc.png" alt="Foto minha programando">
+  </section>
+  <!-- FIM SOBRE -->
+
+  <!-- INICIO PROJETOS -->
+  <section id="projetos" class="projects">
+    <h2>Meus projetos</h2>
+    <p>Conheça meus últimos projetos</p>
+
+    <div class="project-list">
+      <img src="projeto1.png" alt="Foto do projeto 1">
+      <img src="projeto2.png" alt="Foto do projeto 2">
+      <img src="projeto3.png" alt="Foto do projeto 3">
+    </div>
+
+    <div class="project-list">
+      <img src="projeto2.png" alt="Foto do projeto 2">
+      <img src="projeto1.png" alt="Foto do projeto 1">
+      <img src="projeto3.png" alt="Foto do projeto 3">
+    </div>
+
+    <button >Faça um orçamento</button>
+  </section>
+
+    <div id ="contato" class="form">
+        <form action="#">
+            <div class="form-header">
+                <div class="title">
+                    <h1>Contato</h1>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <div class="input-box">
+                    <label for="firstname">Primeiro Nome</label>
+                    <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                </div>
+                <div class="input-box">
+                    <label for="lastname">Sobrenome</label>
+                    <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                  </div>
+                <div class="input-box">
+                    <label for="email">E-mail</label>
+                    <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="number">Celular</label>
+                    <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                </div>
+
+            </div>
+
+            <div class="gender-inputs">
+                <div class="gender-title">
+                    <h6>Gênero</h6>
+                </div>
+
+                <div class="gender-group">
+                    <div class="gender-input">
+                        <input id="female" type="radio" name="gender">
+                        <label for="female">Feminino</label>
+                    </div>
+
+                    <div class="gender-input">
+                        <input id="male" type="radio" name="gender">
+                        <label for="male">Masculino</label>
+                    </div>
+                  
+                </div>
+            </div>
+
+            <div class="continue-button">
+                <button><a href="#">Enviar contato</a> </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+  <!-- FIM PROJETOS -->
+
+  <!-- INICIO RODAPE -->
+  <footer>
+    <h3>
+      <a href="#">Sujeito Programador</a>
+    </h3>
+    <p>Todos direitos reservados!</p>
+  </footer>
+  <!-- FIM RODAPE -->
+
+</body>
+</html>
